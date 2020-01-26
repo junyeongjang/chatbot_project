@@ -1,0 +1,17 @@
+{
+  "name": "telegram_chatbot",
+  "version": "1.0.0",
+  "description": "텔레그램 챗봇 연습",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mysql2": "^2.1.0",
+    "node-telegram-bot-api": "^0.40.0",
+    "nodemon": "^2.0.2",
+    "sequelize": "^5.21.3"
+  }
+}
