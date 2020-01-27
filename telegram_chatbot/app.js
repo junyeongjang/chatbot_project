@@ -15,6 +15,6 @@ bot.on('message', (msg) => {
     //msg.text 키워드 
    console.log(msg.text);
    bot.sendMessage(msg.chat.id, "Ezai 챗봇에 오신 것을 환영합니다.2");
-   
+   //메세지를 칠때마다 보내짐 
 
 });
