@@ -1,7 +1,7 @@
 var express = require('express');
 
 const TelegramBot = require('node-telegram-bot-api'); 
-const token = '1031768450:AAFy8Csn6kabeU9AlKf0VLzOFeB6hwxAmaE';
+const token = 'input token';
 const bot = new TelegramBot(token, {polling: true});
 
 //onText란 /start와 같은 명령어를 뜻함 
