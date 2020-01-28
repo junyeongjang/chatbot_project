@@ -7,9 +7,10 @@ const bot = new TelegramBot(token, {polling: true});
 //onText란 /start와 같은 명령어를 뜻함 
 bot.onText(/\/start/, (msg) => {
     bot.sendMessage(msg.chat.id, "Ezai 챗봇에 오신 것을 환영합니다.");  
-    bot.sendLocation(msg.chat.id,37.602859, 126.955252);
     //photo 전송 
     bot.sendPhoto(msg.chat.id,"/Users/jangjun-yeong/Documents/GitHub/chatbot_project/telegram_chatbot/logo.png" );
+    //location 전송 좌표를 전송하면 google 맵에서 좌표 표시
+    bot.sendLocation(msg.chat.id,37.602859, 126.955252); //상명대학교 좌표
 });
 
 // 사용자가 message를 보내면 내가 원하는 메세지를 보냄
