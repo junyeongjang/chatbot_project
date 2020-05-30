@@ -8,19 +8,18 @@ var logger = require('morgan');
 //라우터 연결
 var indexRouter = require('./routes/index');
 var startChatRouter = require('./routes/startChat');
-
+var sequelize = require('./models').sequelize;
 // 익스프레스 연결
 var app = express();
 
 //시퀄라이즈 DB연결
-var sequelize = require('./models').sequelize;
+
 sequelize.sync();
 
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'ejs');
-app.engine('html', require('ejs').renderFile);
+app.set('view engine', 'pug');
 app.set('port',process.env.PORT||8001);
 
 //미들웨어 사용 static, dev
