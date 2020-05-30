@@ -6,3 +6,9 @@
     -  모의 학교 챗봇 개발 중 (50%) - 교수정보 DB에 넣어야함
     -  모의 영화관 챗봇 개발 예정(0%)
     -  챗봇 제작법 블로그에 기재(0%)
+
+
+
+### line bot(node js): https://github.com/line/line-bot-sdk-nodejs
+
+
