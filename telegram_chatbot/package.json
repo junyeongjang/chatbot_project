@@ -1,0 +1,15 @@
+{
+  "name": "telegram_bot",
+  "version": "1.0.0",
+  "description": "간단한 텔레그램 봇입니다.",
+  "main": "circle_bot.js",
+  "scripts": {
+    "start":"node circle_bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JJY",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.50.0"
+  }
+}
