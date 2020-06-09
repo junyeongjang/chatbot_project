@@ -18,7 +18,7 @@ class TelegramBot:
         self.updater.stop()
 class BotChii(TelegramBot):
     def __init__(self):
-        self.token = '821604164:AAExhkSPWgRv5aDVSh29zSaOJpmyIWHWcK8'
+        self.token = 'input token'
         TelegramBot.__init__(self, '치이', self.token)
         self.updater.stop()
 

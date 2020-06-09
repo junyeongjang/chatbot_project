@@ -16,4 +16,4 @@ async def on_message(message):
         await message.channel.send("또만나")
 
 
-client.run("NTk4MTc2MzEzOTcwMjYyMDI3.XSS1Nw.4KIACE-Ae7JsqOoIdpEGYp9Hct8")
+client.run("token")
